@@ -1,0 +1,20 @@
+{
+  "name": "quickstart-project",
+  "version": "1.0.0",
+  "author": "Borja Cano",
+  "description": "A starter project for AngularJS with Gulp",
+  "keywords": [],
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "repository": "https://github.com/bcano/quickstart-project",
+  "devDependencies": {
+    "bower": "^1.6.6",
+    "browser-sync": "^2.10.0",
+    "gulp": "^3.9.0",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
