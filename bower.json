@@ -9,5 +9,8 @@
     "angular": "^1.4.8",
     "angular-route": "^1.4.8",
     "angular-loader": "^1.4.8"
+  },
+  "devDependencies": {
+    "normalize-css": "normalize.css#~3.0.3"
   }
 }
