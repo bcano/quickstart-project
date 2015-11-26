@@ -1,0 +1,39 @@
+doctype html
+html.no-js(lang='en', ng-app="quickstartProjectApp")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+
+    title A starter project for AngularJS with Gulp
+
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    link(rel='stylesheet', href="../css/main.css", media="screen")
+    link(rel='shortcut icon', href='../images/favicon.ico')
+  
+  body
+    header
+      h1 A starter project for AngularJS with Gulp
+    
+    nav
+      ul
+        li
+          a(href="#/view1") View1
+        li
+          a(href="#/view2") View2
+    
+    section(ng-view)
+    
+    footer
+      p This is the footer of the page.
+
+    //- In production use:
+    //- script(src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js")
+    script(src="../bower_components/angular/angular.min.js")
+    script(src="../bower_components/angular-loader/angular-loader.min.js")
+    script(src="../bower_components/angular-route/angular-route.min.js")
+    //- Project .js files
+    script(src="../scripts/app.js")
+    script(src="../scripts/controllers.js")
