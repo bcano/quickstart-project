@@ -18,6 +18,8 @@
             .otherwise({
               redirectTo: '/view1'
             });
+
+            
       }]);
 
 })();
